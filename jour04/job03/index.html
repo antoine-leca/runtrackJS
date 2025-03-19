@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <form action="POST">
+            <label for="">ID</label>
+            <input type="number" placeholder="6" name="id" id="id">
+            <label for="">Nom</label>
+            <input type="text" placeholder="Dracaufeu" name="nom" id="nom">
+            <label for="">Type</label>
+            <select id="type" name="type">
+                <option value="">Selectionnez un type</option>
+            </select>
+            <input type="button" id="button" value="FILTRER">
+        </form>
+    </section>
+    <div id="results"></div>
+</body>
+</html>
